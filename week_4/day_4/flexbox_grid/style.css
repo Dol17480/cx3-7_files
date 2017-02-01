@@ -1,0 +1,35 @@
+.grid {
+  border: solid 1px dodgerblue;
+}
+
+.grid-row{
+  display: flex;
+  flex-direction: column;
+}
+
+.cell{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid tomato;
+}
+
+/*MEDIA QUERIES*/
+@media all and ( min-width: 480px){
+
+  .grid-row-sm{
+    flex-direction: row;
+  }
+
+  @media all and ( min-width: 720px){
+
+    .grid-row-md{
+      flex-direction: row;
+    }
+  }
+
+  @media all and ( min-width: 960px){
+
+    .grid-row-lg{
+      flex-direction: row;
+    }
+  }

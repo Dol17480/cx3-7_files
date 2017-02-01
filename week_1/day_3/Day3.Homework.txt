@@ -1,0 +1,74 @@
+Homework
+
+A. Given the following data structure:
+
+lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
+
+Work out how many stops there are in the current west array
+lines.length
+
+Return 'Edinburgh Park' from the array
+return [1]
+
+How many ways can we return 'Princes Street' from the array?
+
+
+Work out the index position of 'Haymarket'
+Add 'Airport' to the start of the array
+Add 'York Place' to the end of the array
+Remove 'Edinburgh Park' from the array using it's name
+Delete 'Edinburgh Park' from the array by index
+Reverse the positions of the stops in the array
+Print out all of the stops using a for loop and a while loop
+B. Given the following data structure:
+
+  my_hash = {0 => "Zero", 1 => "One", :two => "Two", "two" => 2}
+How would you return the string "One"?
+How would you return the string "Two"?
+How would you return the number 2?
+How would you add {3 => "Three"} to the hash?
+How would you add {:four => 4} to the hash?
+C. Given the following data structure:
+
+  users = {
+    "Jonathan" => {
+      :twitter => "jonnyt",
+      :favourite_numbers => [12, 42, 75, 12, 5],
+      :home_town => "Stirling",
+      :pets => {
+        :fluffy => "cat",
+        :fido => "dog",
+        :spike => "dog"
+      }
+    },
+    "Erik" => {
+      :twitter => "eriksf",
+      :favourite_numbers => [8, 12, 24],
+      :home_town => "Linithgow",
+      :pets => {
+        :nemo => "fish",
+        :kevin => "fish",
+        :rover => "dog",
+        :rupert => "parrot"
+      }
+    },
+    "Avril" => {
+      :twitter => "bridgpally",
+      :favourite_numbers => [12, 14, 85, 88],
+      :home_town => "Dunbar",
+      :pets => {
+        :sssteven => "snake"
+      }
+    },
+  }
+Return Jonathan's Twitter handle (i.e. the string "jonnyt")
+Return Erik's hometown
+Return the array of Erik's favorite numbers
+Return the type of Avril's pet Colin
+Return the smallest of Erik's favorite numbers
+Return an array of Avril's favorite numbers that are even
+Return an array of Jonathans favourite numbers, sorted in ascending order and excluding duplicates
+Add the number 7 to Erik's favorite numbers
+Change Erik's hometown to Edinburgh
+Add a pet dog to Erik called "Fluffy"
+Add yourself to the users hash

@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS magical_items;
+DROP TABLE IF EXISTS wizards;
+
+CREATE TABLE wizards(
+id SERIAL8 PRIMARY KEY,
+name VARCHAR(255)
+);
+
+CREATE TABLE magical_items(
+id SERIAL8 PRIMARY KEY,
+name VARCHAR(255),
+wizard_id INT4 REFERENCES wizards(id) 
+);
